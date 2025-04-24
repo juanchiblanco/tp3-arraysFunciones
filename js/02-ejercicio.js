@@ -2,7 +2,7 @@ let i = ""
 let ciudades = []
 
 do{
-    i = prompt("ingrese ciudad:");
+    i = prompt("Ingresa una ciudad:");
     ciudades.push(i);
     if (i === null || !isNaN(i) ) {
         alert("Fin del programa. Ingresaste un valor invalido.");
