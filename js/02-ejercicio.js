@@ -21,6 +21,8 @@ do{
         ciudades.push ('Paris')
         document.writeln(`<br>Elemento ultima posición: ${ciudades[ciudades.length - 1]}`)
 
+        ciudades.splice(1,0,`Barcelona`)
+
         document.writeln(`<h2>Lista de Ciudades</h2>`)
 document.writeln(`<ul>`)
 
