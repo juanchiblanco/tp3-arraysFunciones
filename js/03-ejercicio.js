@@ -37,9 +37,7 @@ for(let i=0;i<50;i++){
     sumar(dado1,dado2)
 }
 
-console.log(sumas)
-console.log(dos)
-document.writeln(sumas)
+document.writeln(`Las sumas de ambos dados son: ${sumas}`)
 
 document.writeln(`<table>
     <tbody>`)
