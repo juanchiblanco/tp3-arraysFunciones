@@ -30,5 +30,3 @@ for( i=0;i<ciudades.length;i++){
     document.writeln(`<li>${ciudades[i]}</li>`)
 }
 document.writeln(`</ul>`)
-
-document.writeln(`<ul>`)
